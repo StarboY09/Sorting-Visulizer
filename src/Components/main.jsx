@@ -42,7 +42,7 @@ const Visualizer = () => {
       let bar = document.getElementById(i).style;
       bar.backgroundColor = "green";
 
-      await sleep(animationSpeed);
+      await sleep(150);
     }
     setDisableOptions(false);
   };
